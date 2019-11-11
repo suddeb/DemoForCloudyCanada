@@ -27,6 +27,5 @@ public with sharing class LeadTriggerHandler implements TriggerInterface{
         for(Lead singleLead : allLeads){
             singleLead.Rating = LeadRatingMapUtil.getLeadRatingMap(companyNames).getMapping(singleLead.Company);
         }
-
     }
 }

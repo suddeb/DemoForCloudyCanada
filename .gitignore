@@ -6,6 +6,8 @@
 .sfdx/
 metadata/*
 package.xml
+unpackaged.zip
+unpackaged/*
 
 # Logs
 logs
